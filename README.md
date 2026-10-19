@@ -15,12 +15,16 @@ Main focus: forensics and steganography.
 | [Silent Document](playgrounds-ctf/steg/silent-document/) | Playgrounds CTF 2025 | Steganography | Hidden PDF text, embedded files |
 | [Pixel Perfect](playgrounds-ctf/steg/pixel-perfect/) | Playgrounds CTF 2025 | Steganography | LSB extraction |
 | [S0F0](playgrounds-ctf/steg/s0f0/) | Playgrounds CTF 2025 | Steganography | JPEG SOF0 header manipulation |
+| [Crypto Heist](cscctf-v7/forensics/crypto-heist/) | CSCCTF v7 | Forensics | Windows memory forensics, Volatility 3 |
+| [Lost Password](cscctf-v7/forensics/lost-password/) | CSCCTF v7 | Forensics | USB HID mouse and keyboard decoding |
+| [The Curious Case of DEADBEEF](cscctf-v7/forensics/the-curious-case-of-deadbeef/) | CSCCTF v7 | Forensics | TLS decryption, ELF reversing, PBKDF2/AES |
 
 ## Events
 
 | Event | Date | Format | Challenges |
 | :-- | :-- | :-- | :-- |
 | [Playgrounds CTF](playgrounds-ctf/) | Late 2025 | 24h jeopardy, PSUT, ~200 players | 7 |
+| [CSCCTF v7](cscctf-v7/) | Jan 2026 | Jeopardy, PSUT Cyber Security Club, ~150 players | 3 |
 
 ## Layout
 
