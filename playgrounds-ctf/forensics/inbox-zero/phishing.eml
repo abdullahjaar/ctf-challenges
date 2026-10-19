@@ -1,0 +1,169 @@
+Return-Path: <noreply@paypal-secure.com>
+Delivered-To: sarah.mitchell@techcorp.io
+Received: from mx2.techcorp.io (mx2.techcorp.io [10.50.2.15])
+	by mail.techcorp.io with ESMTP id z9si8765432qkm.200.2025.12.24.03.15.42
+	for <sarah.mitchell@techcorp.io>;
+	Tue, 24 Dec 2025 03:15:42 -0800 (PST)
+Received: from relay-smtp.cloudmailer.net (relay-smtp.cloudmailer.net [192.168.100.50])
+	by mx2.techcorp.io with ESMTPS id p5si7654321plq.150.2025.12.24.03.15.38
+	for <sarah.mitchell@techcorp.io>
+	(version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+	Tue, 24 Dec 2025 03:15:38 -0800 (PST)
+Received: from mail-out.shadyhost.ru (mail-out.shadyhost.ru [185.220.101.67])
+	by relay-smtp.cloudmailer.net with SMTP id k2mb9876543pld.100.2025.12.24.03.15.33
+	for <sarah.mitchell@techcorp.io>;
+	Tue, 24 Dec 2025 03:15:33 -0800 (PST)
+Received: from sender.phishkit.org ([103.94.108.25])
+	by mail-out.shadyhost.ru with ESMTP id n7si6543210qbt.50.2025.12.24.03.15.28;
+	Tue, 24 Dec 2025 14:15:28 +0300
+Received: from [103.94.108.25] (unknown [103.94.108.25])
+	by sender.phishkit.org (Postfix) with ESMTP id 4YzK3m0qRtz5yG;
+	Tue, 24 Dec 2025 14:15:15 +0300 (MSK)
+Authentication-Results: mx2.techcorp.io;
+	spf=fail (sender IP is 103.94.108.25) smtp.mailfrom=paypal.com smtp.helo=sender.phishkit.org;
+	dkim=fail reason="signature verification failed" header.d=paypal.com;
+	dmarc=fail action=quarantine header.from=paypal.com;
+Received-SPF: fail (techcorp.io: domain of paypal.com does not designate 103.94.108.25 as permitted sender)
+From: "PayPal Security Center" <service@paypal.com>
+Reply-To: c3VwcG9ydEBwYXlwYWwtc2VjdXJlLmNvbQ==@notifications.sender.net
+To: sarah.mitchell@techcorp.io
+Subject: Your PayPal Account Has Been Limited - Immediate Action Required
+Date: Tue, 24 Dec 2025 14:12:45 +0300
+Message-ID: <20251224141245.F8A3E.67890@phishkit.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_67890_123456789.1735041165000"
+X-Mailer: MailChimp Spoof Engine v2.8
+X-Originating-IP: [103.94.108.25]
+X-Priority: 1
+X-MSMail-Priority: High
+Importance: high
+
+------=_Part_67890_123456789.1735041165000
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Dear PayPal Customer,
+
+We have detected unusual activity on your PayPal account and have temporarily limited access to protect your funds.
+
+Recent suspicious transactions:
+- $847.99 USD to merchant: "ELECTRONIC STORE LTD" - China
+- $1,250.00 USD to: "CRYPTO EXCHANGE PRO" - Nigeria
+
+To restore full access to your account, please verify your identity immediately:
+https://paypal-secure-login.com/verify?session=a8f9e2d7c6b1
+
+This link will expire in 12 hours. Failure to verify will result in permanent account suspension.
+
+Sincerely,
+PayPal Security Team
+
+------=_Part_67890_123456789.1735041165000
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body { margin: 0; padding: 0; font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #f5f5f5; }
+.email-container { max-width: 600px; margin: 0 auto; background: #ffffff; }
+.header { background: #003087; padding: 30px; text-align: center; }
+.logo { color: #ffffff; font-size: 28px; font-weight: bold; }
+.content { padding: 40px 30px; }
+.alert-banner { background: #fff3cd; border: 2px solid #ffc107; border-radius: 5px; padding: 20px; margin: 20px 0; }
+.alert-title { color: #856404; font-size: 18px; font-weight: bold; margin-bottom: 10px; }
+.transaction-box { background: #f8f9fa; border-left: 4px solid #dc3545; padding: 15px; margin: 15px 0; }
+.verify-button { display: inline-block; background: #0070ba; color: #ffffff; padding: 15px 40px; text-decoration: none; border-radius: 25px; font-weight: bold; margin: 25px 0; }
+.verify-button:hover { background: #005ea6; }
+.footer { background: #f5f5f5; padding: 30px; text-align: center; font-size: 12px; color: #6c757d; }
+.divider { border-top: 1px solid #e5e5e5; margin: 30px 0; }
+</style>
+</head>
+<body>
+<div class="email-container">
+
+<div class="header">
+<div class="logo">PayPal</div>
+</div>
+
+<div class="content">
+
+<div class="alert-banner">
+<div class="alert-title">⚠️ Account Limited - Action Required</div>
+<p style="margin: 0; color: #856404;">We've detected unusual activity and temporarily limited your account access.</p>
+</div>
+
+<p>Dear PayPal Customer,</p>
+
+<p>Our security systems have flagged <strong>suspicious transactions</strong> on your account. To protect your funds, we've temporarily limited your account access until you verify your identity.</p>
+
+<div style="margin: 20px 0;">
+<strong>Suspicious Activity Detected:</strong>
+</div>
+
+<div class="transaction-box">
+<strong>Transaction 1:</strong><br>
+Amount: $847.99 USD<br>
+Merchant: ELECTRONIC STORE LTD<br>
+Location: Shenzhen, China<br>
+Date: Dec 24, 2025 02:34 AM
+</div>
+
+<div class="transaction-box">
+<strong>Transaction 2:</strong><br>
+Amount: $1,250.00 USD<br>
+Merchant: CRYPTO EXCHANGE PRO<br>
+Location: Lagos, Nigeria<br>
+Date: Dec 24, 2025 03:12 AM
+</div>
+
+<p><strong>If you did not authorize these transactions, your account may be compromised.</strong></p>
+
+<center>
+<a href="https://paypal-secure-login.com/verify?session=a8f9e2d7c6b1&amp;uid=MTczNTA0MTE2NQ" class="verify-button">VERIFY YOUR IDENTITY NOW</a>
+</center>
+
+<p style="color: #dc3545; font-weight: bold;">⏰ This verification link expires in 12 hours</p>
+
+<p>Failure to complete verification will result in permanent account closure and funds being held for 180 days per our User Agreement.</p>
+
+<div class="divider"></div>
+
+<p style="font-size: 14px; color: #6c757d;">
+<strong>Why is this happening?</strong><br>
+We detected sign-in attempts from unusual locations and devices not previously associated with your account. This is a standard security measure to protect your funds.
+</p>
+
+<p>Thank you for your immediate attention to this matter.</p>
+
+<p>Sincerely,<br>
+<strong>PayPal Security Center</strong></p>
+
+</div>
+
+<div class="footer">
+<p><strong>PayPal Inc.</strong></p>
+<p>2211 North First Street, San Jose, CA 95131, USA</p>
+<p style="margin-top: 20px;">
+<a href="https://paypal-secure-login.com/help" style="color: #0070ba; text-decoration: none;">Help Center</a> |
+<a href="https://paypal-secure-login.com/contact" style="color: #0070ba; text-decoration: none;">Contact Us</a> |
+<a href="https://paypal-secure-login.com/security" style="color: #0070ba; text-decoration: none;">Security Center</a>
+</p>
+<p style="margin-top: 20px; font-size: 11px;">
+This is an automated security notification. Please do not reply to this email.<br>
+If you did not request this email, please ignore it.
+</p>
+<p style="margin-top: 15px;">
+<a href="https://paypal-secure-login.com/unsubscribe?id=c2FyYWgubWl0Y2hlbGxAdGVjaGNvcnAuaW8" style="color: #6c757d;">Unsubscribe</a> |
+<a href="https://paypal-secure-login.com/privacy" style="color: #6c757d;">Privacy Policy</a>
+</p>
+</div>
+
+</div>
+<img src="https://tracking.phishkit.org/pixel.png?campaign=paypal2025&amp;target=sarah.mitchell@techcorp.io&amp;id=67890" width="1" height="1" style="display:none;" alt="" />
+</body>
+</html>
+
+------=_Part_67890_123456789.1735041165000--
